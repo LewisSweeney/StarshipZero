@@ -1,0 +1,173 @@
+#canvas {
+    position: absolute;
+    z-index: 999;
+    top: 0;
+    bottom: 0;
+    left: 0px;
+    right: 30%;
+    margin: auto;
+}
+
+#scorelist {
+    height: 80%;
+    width: 43%;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 500px;
+    right: 0;
+    margin: auto;
+}
+
+#scorerowleft {
+    display: inline-block;
+    text-align: left;
+    font-family: 'Play';
+    font-size: 24px;
+    padding-left: 80px;
+    padding-right: 0px;
+
+}
+#scorerowmiddle{
+    text-align: center;
+    display: inline-block;
+    font-family: 'Play';
+    font-size: 24px;
+    padding-left: 110px;
+
+}
+#scorerowright {
+    display: inline-block;
+    font-family: 'Play';
+    font-size: 24px;
+    padding-left: 60px;
+    padding-right: 40px;
+
+}
+
+body {
+    background-color: #87898C;
+}
+
+img {
+    padding-top: 15px;
+}
+
+div#mainBody img {
+    float: left;
+    padding-right: 8px;
+}
+
+li {
+    font-family: 'Press Start 2P';
+    font-size: 16px;
+    line-height: 150%;
+    list-style: none;
+    top: 40px;
+}
+
+a[class="p"] {
+    font-family: 'Play';
+    list-style: square;
+    list-style-position: inside;
+    line-height: 140%;
+}
+
+#menuBanner {
+    float: left;
+    position: fixed;
+    z-index: 998;
+    height: 100%;
+    left: 0;
+    width: 205px;
+    background-color: #43464B;
+}
+
+#mainBody {
+    position: absolute;
+    top: 3px;
+    left: 250px;
+    height: 100%;
+    padding-right: 15%;
+    background-color: #87898C;
+}
+
+h1 {
+    font-family: 'Press Start 2P';
+    font-size: 24px;
+    color: white;
+}
+
+h2 {
+    font-family: 'Press Start 2P';
+    color: white;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: 32px;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+h3 {
+    font-family: 'Press Start 2P';
+    color: white;
+    font-size: 16px;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+h4 {
+    font-family: 'Press Start 2P';
+    color: white;
+    font-size: 16px;
+    text-align: center;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+#score[] #title {
+    position: fixed;
+    left: 9px;
+    float: left;
+}
+
+#subtitle {
+    position: fixed;
+    top: 120px;
+    left: 20px;
+}
+
+ul {
+    padding-left: 20px;
+    padding-top: 120px;
+}
+
+a {
+    color: white;
+    font-size: 16px;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #D1857E;
+    font-size: 16px;
+}
+
+div#p a {
+    font-family: 'Play';
+    list-style: square;
+    list-style-position: inside;
+    line-height: 140%;
+}
+
+p {
+    font-family: 'Play';
+    font-size: 15px;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    background: transparent;
+}

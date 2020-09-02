@@ -1,0 +1,106 @@
+body {
+    background-color: #e1f7d5;
+}
+
+img {
+    padding-top: 15px;
+}
+
+li {
+    font-family: 'Press Start 2P';
+    font-size: 16px;
+    line-height: 150%;
+    list-style: none;
+    top: 40px;
+}
+
+a[class="p"] {
+    font-family: 'Play';
+    list-style: square;
+    list-style-position: inside;
+    line-height: 140%;
+}
+
+#menuBanner {
+    float: left;
+    position: fixed;
+    z-index: 999;
+    height: 100%;
+    left: 0;
+    width: 15%;
+    background-color: #43464B;
+}
+
+#mainBody {
+    position: fixed;
+    top: 3px;
+    left: 250px;
+    height: 100% padding-right: 20px;
+    background-color: #e1f7d5;
+}
+
+h1 {
+    font-family: 'Press Start 2P';
+    font-size: 24px;
+    color: white;
+}
+
+h2 {
+    font-family: 'Press Start 2P';
+    color: white;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: 32px;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+#title {
+    position: fixed;
+    left: 9px;
+    float: left;
+}
+
+#subtitle {
+    position: fixed;
+    top: 120px;
+    left: 20px;
+}
+
+ul {
+    padding-left: 20px;
+    padding-top: 120px;
+}
+
+a {
+    color: white;
+    font-size: 16px;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #D1857E;
+    font-size: 16px;
+}
+
+div#p a {
+    font-family: 'Play';
+    list-style: square;
+    list-style-position: inside;
+    line-height: 140%;
+}
+
+p {
+    font-family: 'Play';
+    font-size: 15px;
+    padding-right: 15%;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    background: transparent;
+}
